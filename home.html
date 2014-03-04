@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Anand's WebPrint</title>
+		<meta name="description" content="Blueprint: Split Layout" />
+		<meta name="keywords" content="website template, layout, css3, transition, effect, split, dual, two sides, portfolio" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/component3.css" />
+		<link rel="stylesheet" type="text/css" href="css/component4.css" />
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js">
+		</script>
+		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/MetroJs.css" />
+		<script src="js/MetroJs.js"></script>
+	</head>
+	<script type="text/javascript"> 
+		$(document).ready(function(){
+				  $(".points").hide();
+				  $(".clickHeader").click(function(){
+				      $( ".points" ).slideToggle();
+				  });
+
+				  //play on hover
+					var $tiles = $("#tile1, #tile2, #tile3, #tile4, #tile5").liveTile({ 
+					    playOnHover:true,
+					    repeatCount: 0,
+					    speed: 300,
+					    delay: 0,
+					    startNow:false 
+					});
+
+				});
+	</script>
+	<script type="text/javascript">
+    // apply regular slide universally unless .exclude class is applied 
+    // NOTE: The default options for each liveTile are being pulled from the 'data-' attributes
+//animate on click
+				
+	</script>
+	<body>
+		<div class="container">
+			<div id="splitlayout" class="splitlayout">
+				<div class="intro">
+					<div class="side side-left">
+						<header class="codropsheader clearfix">
+							<h1>Anand Shenoy</h1>
+							<nav>
+							<a href="https://www.facebook.com/anand.shenoy14"><center><i class="fa fa-facebook fa-lg"></i></center></a>
+							<a href="https://twitter.com/anandshenoy14"><center><i class="fa fa-twitter fa-lg"></i></center></a>
+							<a href="http://www.linkedin.com/in/ashenoy14"><center><i class="fa fa-linkedin fa-lg"></i></center></a>
+							<a href="mailto:anand.shenoy14@gmail.com"><center><i class="fa fa-envelope fa-lg"></i></center></a>
+							<a href="tel:4242626314"><center><i class="fa fa-phone-square fa-lg"></i></center></a>
+							</nav>
+						</header>
+						<div class="intro-content">
+							<div class="profile"><img src="img/profile1-a.jpg" alt="profile1"></div>
+							<h1><span>Professional </span><span>Web Developer</span></h1>
+							<div class="footerCustom"><h4>&copy; Anand Shenoy. Designs and Stylesheets inspired by <a href="http://tympanus.net/codrops/category/blueprints/" target="_blank">Codrops</a><h4></div>
+						</div>
+					</div>
+					<div class="side side-right">
+						<div class="intro-content">
+							<div class="profile"><img src="img/profile2-a.jpg" alt="profile2"></div>
+							<h1><span>Personal </span><span>Arsenal Fan.Foodie</span></h1>
+						</div>
+					</div>
+				</div><!-- /intro -->
+				<div class="page page-right">
+					<div class="page-inner">
+							<div class="container">	
+								<div id="cbp-so-scroller" class="cbp-so-scroller">
+									<section class="cbp-so-section">
+										<figure class="cbp-so-side cbp-so-side-left">
+											<img src="images/4_A.png" alt="img01">
+										</figure>
+										<article class="cbp-so-side cbp-so-side-right">
+											<h2>Web Dev Freak!</h2>
+											<p>console.log('I love Web Dev!');</p>
+										</article>
+									</section>
+									<section class="cbp-so-section">
+										<article class="cbp-so-side cbp-so-side-left">
+											<h2>Married</h2>
+											<p>Happily tied the bond with the glamourous lady, Uma Bhat, on 27th of February 2011</p>
+										</article>
+										<figure class="cbp-so-side cbp-so-side-right">
+											<img src="images/1_A.png" alt="img01">
+										</figure>
+									</section>
+									<section class="cbp-so-section">
+										<figure class="cbp-so-side cbp-so-side-left">
+											<img src="images/2_A.png" alt="img01">
+										</figure>
+										<article class="cbp-so-side cbp-so-side-right">
+											<h2>Arsenal Fan</h2>
+											<p>Success might be measured in cups, sad that bravery can't be.COYG! since birth to the end of days</p>
+										</article>
+									</section>
+									<section class="cbp-so-section">
+										<article class="cbp-so-side cbp-so-side-left">
+											<h2>Indian Food Lover</h2>
+											<p>“If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.” ― J.R.R. Tolkien</p>
+										</article>
+										<figure class="cbp-so-side cbp-so-side-right">
+											<img src="images/3_A.png" alt="img01">
+										</figure>
+									</section>
+								</div>
+							</div>
+							<script src="js/classie.js"></script>
+							<script src="js/cbpScroller.js"></script>
+							<script>
+								new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+							</script>
+					</div><!-- /page-inner -->
+				</div><!-- /page-right -->
+				<div class="page page-left">
+					<div class="page-inner">
+						<section>
+						<!--timeline demo-->
+								<div class="main">
+									<ul class="cbp_tmtimeline">
+										<!-- Recent Education -->
+										<li>
+											<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span><h5>Aug'12-Present</h5></span>
+												<span>
+													<div class="profileCompany">
+														<a href="http://msse.sjsu.edu/" target="_blank">
+														<img src="img/sjsuCustomLogo.jpg" alt="profile1">
+														</a>
+													</div>
+												</span>
+											</time>
+											<div class="cbp_tmicon cbp_tmicon-phone"></div>
+											<div class="cbp_tmlabel">
+												<h3>M.S. in Software Engineering</h3>
+												<ul class="fa-ul">
+													<li><i class="fa fa-bug"></i></li>
+														<span class="bulletText">Pursuing Masters in Software Engineering with Enterprise Software Technologies as the specialization.
+														</span>
+														<br/><br/>
+													<li><i class="fa fa-bug"></i></li>
+														<span class="bulletText"><span class="clickHeader">Courses</span></span>
+															    <div class="live-tile red" id="tile1" data-mode="slide">                
+															        <div>
+															            <p>Enterprise Distributed Objects</p>
+															        </div>
+															        <div>
+															            <span class="backinfo"><b><u>Tech Stack</u></b><br/>
+															            		REST WebService<br/>
+															            		Python,Django<br/>
+															            		Netty,Protobuff<br/>
+															            		Maven,JPA
+															            </span>
+															        </div>
+															    </div>
+															    <div class="live-tile red" id="tile2" data-mode="slide">                
+															        <div>
+															            <p>Web/Data Mining</p>
+															        </div>
+															        <div>
+															            <span class="backinfo"><b><u>Tech Stack</u></b><br/>
+															            		Classification<br/>
+															            		Clustering<br/>
+															            		Hadoop-Mahout<br/>
+															            		Recommendation
+															            </span>
+															        </div>
+															    </div>
+															    <div class="live-tile red" id="tile3" data-mode="slide">                
+															        <div>
+															            <p>Enterprise Software Component</p>
+															        </div>
+															        <div>
+															            <span class="backinfo"><b><u>Tech Stack</u></b><br/>
+															            		SOAP WebService<br/>
+															            		J2EE<br/>
+															            		DB Security<br/>
+															            		DB Optimization
+															            </span>
+															        </div>
+															    </div>
+															    <div class="live-tile red" id="tile4" data-mode="slide">                
+															        <div>
+															            <p>Software Systems Engineering</p>
+															        </div>
+															        <div>
+															            <span class="backinfo"><b><u>Tech Stack</u></b><br/>
+															            		Design Patterns<br/>
+															            		Core Java<br/>
+															            		OO Concepts<br/>
+															            		MVC Concepts
+															            </span>
+															        </div>
+															    </div>
+															    <div class="live-tile red" id="tile5" data-mode="slide">                
+															        <div>
+															            <p>Cloud Technologies</p>
+															        </div>
+															        <div>
+															            <span class="backinfo"><b><u>Tech Stack</u></b><br/>
+															            		EC2<br/>
+															            		App Engine<br/>
+															            		Cloud DB<br/>
+															            		Cloud Hosting
+															            </span>
+															        </div>
+															    </div>
+												</ul>
+												<p><br/></p>
+											</div>
+										</li>
+										<!-- Ends -->
+										<li>
+											<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span><h5>Sept'13-Present</h5></span>
+												<span>
+													<div class="profileCompany">
+														<a href="http://www.dreamworksanimation.com/" target="_blank">
+														<img src="img/pdidreamworksCustomLogo.jpg" alt="profile1">
+														</a>
+													</div>
+												</span>
+											</time>
+											<div class="cbp_tmicon cbp_tmicon-phone"></div>
+											<div class="cbp_tmlabel">
+												<h3>Web Developer Intern</h3>
+												<ul class="fa-ul">
+													<li><i class="fa fa-bug"></i></li>
+														<span class="bulletText">Working as an intern in the Job Submission and Execution project in the R&D Division.
+														</span>
+														<br/><br/>
+													<li><i class="fa fa-bug"></i></li>
+														<span class="bulletText">Pre-dominantly working on re-developing and enhancing a search based web-repository using Ext-JS and Python REST-WebServices.
+														</span>
+												</ul>
+												<p><br/></p>
+											</div>
+										</li>
+										<li>
+											<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span><h5>Jun'13-Sept'13</h5></span>
+												<span>
+													<div class="profileCompany">
+														<a href="http://www.juniper.net/us/en/" target="_blank">
+														<img src="img/juniperCustomlogo.jpg" alt="profile1">
+														</a>
+													</div>
+												</span>
+											</time>
+											<div class="cbp_tmicon cbp_tmicon-phone"></div>
+											<div class="cbp_tmlabel">
+												<h3>Software Engineer Intern</h3>
+														<ul class="fa-ul">
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Developed a system to serve as a web-based control center for the virtual devices developed by the company.
+															</span>
+															<br/><br/>
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">This development involved creation of Python based REST interfaces by understanding the inherent NETCONF and CLI commands.
+														  	</span>
+														  	<br/><br/>
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Developed an HTML5/JQUERY based web-portal that transacted with the virtual devices and provided effective dashboard functionalities.
+														  	</span>
+														</ul>
+											</div>
+										</li>
+										<li>
+											<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span><h5>Sept'12-Dec'13</h5></span>
+												<span>
+													<div class="profileCompany">
+														<a href="http://www.sjsu.edu/at/ec" target="_blank">
+														<img src="img/sjsuecampusCustomLogo.jpg" alt="profile1">
+														</a>
+													</div>
+												</span>
+											</time>
+											<div class="cbp_tmicon cbp_tmicon-phone"></div>
+											<div class="cbp_tmlabel">
+												<h3>Web Developer-Student Assistant</h3>
+														<ul class="fa-ul">
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Responsible for creating web-pages through the common Web Content Management solution according to the web accessibility principles(W3C) at <a href="http://www.sjsu.edu/at/ec">SJSU eCampus Dept.</a>
+															</span>
+															<br/><br/>
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Developed an interactive <a href="http://chemteam.net/conductivity_new/login.php">website</a> with HTML 5/jQuery facilitating Electronic Learning for the department of Chemistry
+														  	</span>
+														</ul>
+											</div>
+										</li>
+										<li>
+											<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span><h5>Dec'09-Jul'12</h5></span>
+												<span>
+													<div class="profileCompany">
+														<a href="http://www.tcs.com" target="_blank">
+														<img src="img/tcsCustomLogo.jpg" alt="profile1">
+														</a>
+													</div>
+												</span>
+											</time>
+											<div class="cbp_tmicon cbp_tmicon-phone"></div>
+											<div class="cbp_tmlabel">
+												<h3>Software Engineer</h3>
+														<ul class="fa-ul">
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Wrote an automation script for an application that improved the performance of one of its major operations improving the processing time by approximately 88%
+															</span>
+															<br/><br/>
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Developed a module for the in house company-wide search based utility conforming to Agile-Scrum based product development cycle
+														  	</span>
+														  	<br/><br/>
+														  	<li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Provided efficient and quick solutions to major outages that affected clients for financial web-apps as an off-shore technical co-ordinator
+														  	</span>
+														</ul>
+											</div>
+										</li>
+										<li>
+											<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span><h5>Sept'09-Dec'12</h5></span>
+												<span>
+													<div class="profileCompany">
+														<a href="http://www.bestfitsolutions.co.in/" target="_blank">
+														<img src="img/bfbsCustomLogo.jpg" alt="profile1">
+														</a>
+													</div>
+												</span>
+											</time>
+											<div class="cbp_tmicon cbp_tmicon-phone"></div>
+											<div class="cbp_tmlabel">
+												<h3>.NET Web Developer Trainee</h3>
+														<ul class="fa-ul">
+														  <li><i class="fa fa-bug"></i></li>
+														  	<span class="bulletText">Developed stand-alone and web- based applications with reporting systems on VB,ASP. NET Platform
+															</span>
+														</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+						</section>
+					</div><!-- /page-inner -->
+				</div><!-- /page-left -->
+				<a href="#" class="back back-right" title="back to intro">&rarr;</a>
+				<a href="#" class="back back-left" title="back to intro">&larr;</a>
+			</div><!-- /splitlayout -->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/cbpSplitLayout.js"></script>
+	</body>
+</html>
