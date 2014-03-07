@@ -234,6 +234,11 @@ padding:10px;
 }
 
 @media screen and (max-width: 47.2em) {
+	
+	#tilesSection{
+		display: none;
+	}
+
 	.cbp_tmtimeline:before {
 		display: none;
 	}
