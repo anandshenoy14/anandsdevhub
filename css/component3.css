@@ -227,7 +227,10 @@ padding:10px;
 
 /* Example Media Queries */
 @media screen and (max-width: 65.375em) {
-
+	img.profileEbay {
+		position: relative;
+		top: 39px;
+	}
 	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
 		font-size: 1.5em;
 	}
