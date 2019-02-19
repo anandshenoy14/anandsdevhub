@@ -97,11 +97,19 @@ body {
 	border-radius: 50%;
 	background: #47a3da;
 }
-
 .profileCompany img {
 	max-width: 100%;
 	border-radius: 50%;
 }
+img.profileEbay {
+    position: relative;
+    top: 39px;
+    width: 127px;
+    left: -6px;
+    max-width: none;
+    border-radius: 0;
+}
+
 
 .intro-content h1 > span {
 	display: block;
