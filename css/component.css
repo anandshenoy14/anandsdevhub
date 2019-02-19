@@ -103,7 +103,7 @@ body {
 }
 img.profileEbay {
     position: relative;
-    top: 39px;
+    top: 15px;
     width: 127px;
     left: -6px;
     max-width: none;
@@ -367,6 +367,10 @@ img.profileEbay {
 
 @media screen and (max-width: 58em) {
 	body { font-size: 90%; }
+	img.profileEbay {
+		position: relative;
+		top: 39px;
+	}
 }
 
 @media screen and (max-width: 49.4375em) {
