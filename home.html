@@ -15,36 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="css/component3.css" />
 		<link rel="stylesheet" type="text/css" href="css/component4.css" />
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js">
-		</script>
-		<script src="js/modernizr.custom.js"></script>
-		<link rel="stylesheet" type="text/css" href="js/MetroJs.css" />
-		<script src="js/MetroJs.js"></script>
 	</head>
-	<script type="text/javascript"> 
-		$(document).ready(function(){
-				  $(".points").hide();
-				  $(".clickHeader").click(function(){
-				      $( ".points" ).slideToggle();
-				  });
-
-				  //play on hover
-					var $tiles = $("#tile1, #tile2, #tile3, #tile4, #tile5").liveTile({ 
-					    playOnHover:true,
-					    repeatCount: 0,
-					    speed: 300,
-					    delay: 0,
-					    startNow:false 
-					});
-
-				});
-	</script>
-	<script type="text/javascript">
-    // apply regular slide universally unless .exclude class is applied 
-    // NOTE: The default options for each liveTile are being pulled from the 'data-' attributes
-//animate on click
-				
-	</script>
 	<body>
 		<div class="container">
 			<div id="splitlayout" class="splitlayout">
@@ -115,11 +86,6 @@
 									</section>
 								</div>
 							</div>
-							<script src="js/classie.js"></script>
-							<script src="js/cbpScroller.js"></script>
-							<script>
-								new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
-							</script>
 					</div><!-- /page-inner -->
 				</div><!-- /page-right -->
 				<div class="page page-left">
@@ -355,7 +321,41 @@
 				<a href="#" class="back back-left" title="back to intro">&larr;</a>
 			</div><!-- /splitlayout -->
 		</div><!-- /container -->
+		<script src="js/modernizr.custom.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/cbpSplitLayout.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="js/MetroJs.css" />
+		<script src="js/MetroJs.js"></script>
+		<script type="text/javascript"> 
+			$(document).ready(function(){
+					  $(".points").hide();
+					  $(".clickHeader").click(function(){
+						  $( ".points" ).slideToggle();
+					  });
+	
+					  //play on hover
+						var $tiles = $("#tile1, #tile2, #tile3, #tile4, #tile5").liveTile({ 
+							playOnHover:true,
+							repeatCount: 0,
+							speed: 300,
+							delay: 0,
+							startNow:false 
+						});
+	
+					});
+		</script>
+		<script type="text/javascript">
+		// apply regular slide universally unless .exclude class is applied 
+		// NOTE: The default options for each liveTile are being pulled from the 'data-' attributes
+	//animate on click
+					
+		</script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpScroller.js"></script>
+		<script>
+			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+		</script>
 	</body>
 </html>
